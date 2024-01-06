@@ -97,6 +97,8 @@ public class FormulairePageObejects extends CommondMethods  {
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
        js.executeScript("arguments[0].click();", closeBtn);
 }
+	
+	
 public static void scrennshot( String screenShot1) {
 		
 		TakesScreenshot screenshot= (TakesScreenshot) driver;
